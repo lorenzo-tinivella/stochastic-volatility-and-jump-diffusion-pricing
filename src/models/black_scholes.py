@@ -5,7 +5,7 @@ class BlackScholes:
 
     def __init__(self, S0, r, sigma):
         self.S0 = S0      # initial price
-        self.r = r        # risk-free
+        self.r = r        # risk-free rate
         self.sigma = sigma  # volatility
 
     def simulate(self, T, n_paths):
